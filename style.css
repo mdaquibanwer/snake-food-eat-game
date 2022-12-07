@@ -22,15 +22,35 @@
     grid-template-columns: repeat(18,1fr);
 }
 
+#score , #highScores{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+
+}
+#highScores{
+    top: 60px;
+}
+
 .head{
-    background: rgb(214, 17, 17);
+    background: linear-gradient(rgb(219, 106, 106),rgb(189, 189, 107));
+    border: 2px solid rgb(224, 204, 204);
+    border-radius: 10px;
+    transform: scale(1.02);
 }
 
 .snake{
-    background: rgb(5, 104, 89);
+    background: linear-gradient(yellow,green);
+    border: 0.25vmin solid white;
+    border-radius: 12px;
 }
 
 .food{
-    background: purple;
+    background: linear-gradient(rgb(126, 128, 0),orange);
+    border: 0.25vmin solid black;
     border-radius: 50%;
 }
