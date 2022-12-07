@@ -23,13 +23,14 @@
 }
 
 .head{
-    background: red;
+    background: rgb(214, 17, 17);
 }
 
 .snake{
-    background: yellow;
+    background: rgb(5, 104, 89);
 }
 
 .food{
-    background: salmon;
+    background: purple;
+    border-radius: 50%;
 }
